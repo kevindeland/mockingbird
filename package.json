@@ -1,0 +1,25 @@
+{
+  "name": "mockingbird",
+  "version": "0.0.0",
+  "description": "hush little baby",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "song"
+  ],
+  "author": "Kevin DeLand <kmdeland@us.ibm.com>",
+  "license": "ISC",
+  "dependencies": {
+    "alchemy-api": "^1.1.2",
+    "redis": "^0.12.1",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0"
+  }
+}
